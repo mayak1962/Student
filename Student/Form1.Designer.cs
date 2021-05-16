@@ -59,7 +59,7 @@ namespace Student
             // 
             // textBoxClass
             // 
-            this.textBoxClass.Location = new System.Drawing.Point(67, 23);
+            this.textBoxClass.Location = new System.Drawing.Point(67, 26);
             this.textBoxClass.Name = "textBoxClass";
             this.textBoxClass.Size = new System.Drawing.Size(63, 20);
             this.textBoxClass.TabIndex = 0;
@@ -76,7 +76,7 @@ namespace Student
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(146, 29);
+            this.label2.Location = new System.Drawing.Point(146, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(18, 13);
             this.label2.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace Student
             // 
             // textBoxId
             // 
-            this.textBoxId.Location = new System.Drawing.Point(174, 22);
+            this.textBoxId.Location = new System.Drawing.Point(174, 26);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(33, 20);
             this.textBoxId.TabIndex = 3;
@@ -92,7 +92,7 @@ namespace Student
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(234, 26);
+            this.label3.Location = new System.Drawing.Point(234, 30);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 4;
@@ -100,9 +100,9 @@ namespace Student
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(287, 24);
+            this.textBoxName.Location = new System.Drawing.Point(287, 26);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(261, 20);
+            this.textBoxName.Size = new System.Drawing.Size(325, 20);
             this.textBoxName.TabIndex = 5;
             // 
             // label4
@@ -244,6 +244,7 @@ namespace Student
             this.buttonSave.TabIndex = 21;
             this.buttonSave.Text = "Запази";
             this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click_1);
             // 
             // buttonFind
             // 
@@ -258,7 +259,7 @@ namespace Student
             // 
             this.buttonAverage.Location = new System.Drawing.Point(371, 261);
             this.buttonAverage.Name = "buttonAverage";
-            this.buttonAverage.Size = new System.Drawing.Size(257, 31);
+            this.buttonAverage.Size = new System.Drawing.Size(241, 31);
             this.buttonAverage.TabIndex = 23;
             this.buttonAverage.Text = "Пресметни среден";
             this.buttonAverage.UseVisualStyleBackColor = true;
@@ -268,7 +269,7 @@ namespace Student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(669, 349);
             this.Controls.Add(this.buttonAverage);
             this.Controls.Add(this.buttonFind);
             this.Controls.Add(this.buttonSave);
