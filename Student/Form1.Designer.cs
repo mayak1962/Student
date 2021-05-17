@@ -179,10 +179,11 @@ namespace Student
             // 
             this.labelAverage.AutoSize = true;
             this.labelAverage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAverage.Location = new System.Drawing.Point(156, 261);
+            this.labelAverage.Location = new System.Drawing.Point(115, 261);
             this.labelAverage.Name = "labelAverage";
-            this.labelAverage.Size = new System.Drawing.Size(0, 15);
+            this.labelAverage.Size = new System.Drawing.Size(15, 15);
             this.labelAverage.TabIndex = 13;
+            this.labelAverage.Text = "0";
             // 
             // textBoxBel
             // 
@@ -244,7 +245,7 @@ namespace Student
             this.buttonSave.TabIndex = 21;
             this.buttonSave.Text = "Запази";
             this.buttonSave.UseVisualStyleBackColor = true;
-            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click_1);
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonFind
             // 
@@ -254,6 +255,7 @@ namespace Student
             this.buttonFind.TabIndex = 22;
             this.buttonFind.Text = "Търси";
             this.buttonFind.UseVisualStyleBackColor = true;
+            this.buttonFind.Click += new System.EventHandler(this.buttonFind_Click);
             // 
             // buttonAverage
             // 
